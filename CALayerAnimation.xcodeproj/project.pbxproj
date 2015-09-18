@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A130581E1BA95A9700B41DEC /* KeyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A130581D1BA95A9700B41DEC /* KeyAnimationViewController.m */; };
+		A14267671BABAB3F0083B1A8 /* ReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14267661BABAB3F0083B1A8 /* ReplicatorLayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A142676A1BABB2380083B1A8 /* ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14267691BABB2370083B1A8 /* ActivityIndicatorView.m */; settings = {ASSET_TAGS = (); }; };
+		A142676C1BABB3890083B1A8 /* ActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A142676B1BABB3890083B1A8 /* ActivityIndicatorView.xib */; settings = {ASSET_TAGS = (); }; };
 		A16489141BA161BA00BFB1BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A16489131BA161BA00BFB1BF /* main.m */; };
 		A16489171BA161BA00BFB1BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A16489161BA161BA00BFB1BF /* AppDelegate.m */; };
 		A164891A1BA161BA00BFB1BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16489191BA161BA00BFB1BF /* ViewController.m */; };
@@ -14,6 +18,13 @@
 		A164891F1BA161BA00BFB1BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A164891E1BA161BA00BFB1BF /* Images.xcassets */; };
 		A16489221BA161BA00BFB1BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16489201BA161BA00BFB1BF /* LaunchScreen.xib */; };
 		A164892E1BA161BA00BFB1BF /* CALayerAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A164892D1BA161BA00BFB1BF /* CALayerAnimationTests.m */; };
+		A164893E1BA165EA00BFB1BF /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A164893C1BA165EA00BFB1BF /* MainTableViewCell.m */; };
+		A164893F1BA165EA00BFB1BF /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A164893D1BA165EA00BFB1BF /* MainTableViewCell.xib */; };
+		A16489441BA1726800BFB1BF /* CALayerBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16489431BA1726800BFB1BF /* CALayerBasicViewController.m */; };
+		A1A8ED911BA6C4650087A2F2 /* CALayerCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8ED901BA6C4650087A2F2 /* CALayerCustomViewController.m */; };
+		A1A8ED941BA6C6C70087A2F2 /* LXJLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8ED931BA6C6C70087A2F2 /* LXJLayer.m */; };
+		A1A8ED991BA8075D0087A2F2 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A8ED981BA8075D0087A2F2 /* BasicAnimationViewController.m */; };
+		A1DC0ABE1BAA68D600101CC7 /* ShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC0ABD1BAA68D600101CC7 /* ShapeLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A130581C1BA95A9700B41DEC /* KeyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAnimationViewController.h; sourceTree = "<group>"; };
+		A130581D1BA95A9700B41DEC /* KeyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAnimationViewController.m; sourceTree = "<group>"; };
+		A14267651BABAB3F0083B1A8 /* ReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		A14267661BABAB3F0083B1A8 /* ReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		A14267681BABB2370083B1A8 /* ActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorView.h; sourceTree = "<group>"; };
+		A14267691BABB2370083B1A8 /* ActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorView.m; sourceTree = "<group>"; };
+		A142676B1BABB3890083B1A8 /* ActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityIndicatorView.xib; sourceTree = "<group>"; };
 		A164890E1BA161BA00BFB1BF /* CALayerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16489121BA161BA00BFB1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16489131BA161BA00BFB1BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A16489151BA161BA00BFB1BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A16489161BA161BA00BFB1BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A16489181BA161BA00BFB1BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A16489191BA161BA00BFB1BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A16489181BA161BA00BFB1BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		A16489191BA161BA00BFB1BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		A164891C1BA161BA00BFB1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A164891E1BA161BA00BFB1BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A16489211BA161BA00BFB1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A16489271BA161BA00BFB1BF /* CALayerAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALayerAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A164892C1BA161BA00BFB1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A164892D1BA161BA00BFB1BF /* CALayerAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerAnimationTests.m; sourceTree = "<group>"; };
+		A164893B1BA165EA00BFB1BF /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		A164893C1BA165EA00BFB1BF /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		A164893D1BA165EA00BFB1BF /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		A16489421BA1726800BFB1BF /* CALayerBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerBasicViewController.h; sourceTree = "<group>"; };
+		A16489431BA1726800BFB1BF /* CALayerBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerBasicViewController.m; sourceTree = "<group>"; };
+		A1A8ED8F1BA6C4650087A2F2 /* CALayerCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerCustomViewController.h; sourceTree = "<group>"; };
+		A1A8ED901BA6C4650087A2F2 /* CALayerCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerCustomViewController.m; sourceTree = "<group>"; };
+		A1A8ED921BA6C6C70087A2F2 /* LXJLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXJLayer.h; sourceTree = "<group>"; };
+		A1A8ED931BA6C6C70087A2F2 /* LXJLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXJLayer.m; sourceTree = "<group>"; };
+		A1A8ED971BA8075D0087A2F2 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		A1A8ED981BA8075D0087A2F2 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
+		A1DC0ABC1BAA68D600101CC7 /* ShapeLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayerViewController.h; sourceTree = "<group>"; };
+		A1DC0ABD1BAA68D600101CC7 /* ShapeLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +112,9 @@
 		A16489101BA161BA00BFB1BF /* CALayerAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				A16489391BA1656300BFB1BF /* Controllers */,
 				A16489151BA161BA00BFB1BF /* AppDelegate.h */,
 				A16489161BA161BA00BFB1BF /* AppDelegate.m */,
-				A16489181BA161BA00BFB1BF /* ViewController.h */,
-				A16489191BA161BA00BFB1BF /* ViewController.m */,
 				A164891B1BA161BA00BFB1BF /* Main.storyboard */,
 				A164891E1BA161BA00BFB1BF /* Images.xcassets */,
 				A16489201BA161BA00BFB1BF /* LaunchScreen.xib */,
@@ -117,6 +147,51 @@
 				A164892C1BA161BA00BFB1BF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A16489391BA1656300BFB1BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A164893A1BA1659500BFB1BF /* Main */,
+				A16489411BA1722700BFB1BF /* Animation */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A164893A1BA1659500BFB1BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A16489181BA161BA00BFB1BF /* ViewController.h */,
+				A16489191BA161BA00BFB1BF /* ViewController.m */,
+				A164893B1BA165EA00BFB1BF /* MainTableViewCell.h */,
+				A164893C1BA165EA00BFB1BF /* MainTableViewCell.m */,
+				A164893D1BA165EA00BFB1BF /* MainTableViewCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A16489411BA1722700BFB1BF /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A16489421BA1726800BFB1BF /* CALayerBasicViewController.h */,
+				A16489431BA1726800BFB1BF /* CALayerBasicViewController.m */,
+				A1A8ED8F1BA6C4650087A2F2 /* CALayerCustomViewController.h */,
+				A1A8ED901BA6C4650087A2F2 /* CALayerCustomViewController.m */,
+				A1A8ED921BA6C6C70087A2F2 /* LXJLayer.h */,
+				A1A8ED931BA6C6C70087A2F2 /* LXJLayer.m */,
+				A1A8ED971BA8075D0087A2F2 /* BasicAnimationViewController.h */,
+				A1A8ED981BA8075D0087A2F2 /* BasicAnimationViewController.m */,
+				A130581C1BA95A9700B41DEC /* KeyAnimationViewController.h */,
+				A130581D1BA95A9700B41DEC /* KeyAnimationViewController.m */,
+				A1DC0ABC1BAA68D600101CC7 /* ShapeLayerViewController.h */,
+				A1DC0ABD1BAA68D600101CC7 /* ShapeLayerViewController.m */,
+				A14267651BABAB3F0083B1A8 /* ReplicatorLayerViewController.h */,
+				A14267661BABAB3F0083B1A8 /* ReplicatorLayerViewController.m */,
+				A14267681BABB2370083B1A8 /* ActivityIndicatorView.h */,
+				A14267691BABB2370083B1A8 /* ActivityIndicatorView.m */,
+				A142676B1BABB3890083B1A8 /* ActivityIndicatorView.xib */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +238,7 @@
 		A16489061BA161BA00BFB1BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = GOME;
 				TargetAttributes = {
 					A164890D1BA161BA00BFB1BF = {
@@ -199,8 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A142676C1BABB3890083B1A8 /* ActivityIndicatorView.xib in Resources */,
 				A164891D1BA161BA00BFB1BF /* Main.storyboard in Resources */,
 				A16489221BA161BA00BFB1BF /* LaunchScreen.xib in Resources */,
+				A164893F1BA165EA00BFB1BF /* MainTableViewCell.xib in Resources */,
 				A164891F1BA161BA00BFB1BF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +296,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16489441BA1726800BFB1BF /* CALayerBasicViewController.m in Sources */,
 				A164891A1BA161BA00BFB1BF /* ViewController.m in Sources */,
+				A1A8ED991BA8075D0087A2F2 /* BasicAnimationViewController.m in Sources */,
+				A130581E1BA95A9700B41DEC /* KeyAnimationViewController.m in Sources */,
+				A14267671BABAB3F0083B1A8 /* ReplicatorLayerViewController.m in Sources */,
 				A16489171BA161BA00BFB1BF /* AppDelegate.m in Sources */,
+				A1A8ED911BA6C4650087A2F2 /* CALayerCustomViewController.m in Sources */,
+				A142676A1BABB2380083B1A8 /* ActivityIndicatorView.m in Sources */,
+				A1DC0ABE1BAA68D600101CC7 /* ShapeLayerViewController.m in Sources */,
+				A1A8ED941BA6C6C70087A2F2 /* LXJLayer.m in Sources */,
+				A164893E1BA165EA00BFB1BF /* MainTableViewCell.m in Sources */,
 				A16489141BA161BA00BFB1BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +370,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -349,6 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CALayerAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gome.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CALayerAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gome.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -377,6 +466,7 @@
 				);
 				INFOPLIST_FILE = CALayerAnimationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gome.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayerAnimation.app/CALayerAnimation";
 			};
@@ -392,6 +482,7 @@
 				);
 				INFOPLIST_FILE = CALayerAnimationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gome.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayerAnimation.app/CALayerAnimation";
 			};
@@ -416,6 +507,7 @@
 				A16489331BA161BA00BFB1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A16489341BA161BA00BFB1BF /* Build configuration list for PBXNativeTarget "CALayerAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +516,7 @@
 				A16489361BA161BA00BFB1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
