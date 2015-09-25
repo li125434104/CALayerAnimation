@@ -58,7 +58,6 @@
     //设置每个方块动画的间隔
     self.musicLayer.instanceDelay = 0.3;
     self.musicLayer.masksToBounds = YES;
-    
 }
 
 - (void)didReceiveMemoryWarning {
